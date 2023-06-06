@@ -36,7 +36,7 @@ public class ComputadorExec {
 		
 		//imprimir os objetos (computadores)
 		System.out.println();
-		System.out.println("--__ Computadores Cadastrados __--");
+		System.out.println("---__ Computadores Cadastrados __---");
 		
 		for (Computador pc : lista) {
 			//System.out.println("Processador: " + pc.getProcessador());
