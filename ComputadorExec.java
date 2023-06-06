@@ -47,6 +47,18 @@ public class ComputadorExec {
 			System.out.println(dados);
 		}
 		
+		//1.3 imprimir os dados do pc com maior preço
+		Computador compMaiorPreco = null;
+		for(Computador comput : lista) {
+			if(compMaiorPreco == null ||
+				comput.getPreco() > compMaiorPreco.getPreco())
+				compMaiorPreco = comput;
+			
+		}
+		System.out.println();
+		System.out.println("Maior Preço: ");
+		System.out.println(compMaiorPreco.getDados());
+		
 	}
 
 }
