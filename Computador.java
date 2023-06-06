@@ -7,6 +7,13 @@ public class Computador {
 	private String memoria;
 	
 	private Float preco;
+	
+	public String getDados() {
+		String dados = "Processador: " + this.processador;
+		dados += "Memória: " + this.memoria;
+		dados += " - Preço: " + this.preco.toString();
+		return dados;
+	}
 
 	//GETS E SETS
 	
