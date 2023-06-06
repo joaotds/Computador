@@ -9,8 +9,8 @@ public class Computador {
 	private Float preco;
 	
 	public String getDados() {
-		String dados = "Processador: " + this.processador;
-		dados += "Memória: " + this.memoria;
+		String dados = " - Processador: " + this.processador;
+		dados += " - Memória: " + this.memoria;
 		dados += " - Preço: " + this.preco.toString();
 		return dados;
 	}
